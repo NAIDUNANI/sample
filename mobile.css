@@ -1,0 +1,126 @@
+@media screen and (max-width: 600px) {
+    #logo{
+        margin-left: 2rem;
+        font-size: 1rem;
+    }
+    #navbar{
+        padding-left: 6rem;
+        text-align: center;
+    }
+    .menu_option1{
+        margin-right: 0.5rem;
+        font-size: 0.8rem;
+    }
+    .menu_option2{
+        margin-right: 0.5rem;
+        font-size: 0.8rem;
+    }
+    .menu_option3{
+        margin-right: 0.5rem;
+        font-size: 0.8rem;
+    }
+    .menu_option4{
+        margin-right: 0.5rem;
+        font-size: 0.8rem;
+    }
+    .menu_option5{
+        margin-right: 0.5rem;
+        font-size: 0.8rem;
+    }
+    #home_page{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    #container{
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding-left: 6rem;
+    }
+    .rectangle1, .rectangle2, .rectangle3, .rectangle4, .rectangle5 {
+        width: 2.5rem;
+        box-shadow: 0 4px 10px ;
+        height: 1.3rem;
+        margin-bottom: 1.5rem;
+        background-color: #03087B;
+    }
+    .rectangle3, .rectangle4, .rectangle5{
+        display: none;
+    }
+    #container2{
+        display: inline;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        margin-top: 10rem;
+        margin-left: -2.5rem;
+    }
+    .rectangle11, .rectangle12, .rectangle13, .rectangle14, .rectangle15 {
+        width: 2.5rem;
+        box-shadow: 0 4px 10px ;
+        height: 1.3rem;
+        margin-bottom: 1.5rem;
+        background-color: #03087B;
+    }
+    .rectangle13, .rectangle14, .rectangle15{
+        display: none;
+    }
+    #my_name{
+        grid-column-start: 2;
+        align-items: center;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        align-items: center;
+        margin-left: 0rem;
+        height: 5rem;
+    }
+    .my_name1{
+        display: inline;
+        font-size: 20px;
+    }
+    .role{
+        font-size: 10px;
+    }
+    #div1{
+        position: absolute;
+        top: 11rem;
+        left: 10rem;
+        width: 7rem;
+        height: 9rem;
+        border-bottom-left-radius: 20%;
+        display: inline-block;
+        border: 1rem solid #030878;
+    }
+    #profile_pic{
+        position: absolute;
+        top: 8rem;
+        left: 14rem;
+        width: 7rem;
+        height: 9rem;
+        border-top-right-radius: 20%;
+        display: inline-block;
+        border: 1rem solid #030878;
+    }
+    .my_image{
+        position: absolute;
+        top: 10rem;
+        left: 12rem;
+        width: 9rem;
+        height: 10rem;
+        border-top-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+    }
+    #download_box{
+    display: inline-block;
+    position: absolute;
+    top: 30rem;
+    left: 13rem;
+    width: 147px;
+    height: 35px;
+    background-color:#030878 ;
+    border-radius: 30px;
+    }
+}
